@@ -1,10 +1,13 @@
-import { NextPage } from 'next'
-import React from 'react'
+import { NextPage } from "next";
+import React from "react";
+import Layout from "../components/Layout";
 
-const About:NextPage = () => {
+const About: NextPage = () => {
   return (
-    <div>About</div>
-  )
-}
+    <Layout title="About">
+      <div>This is DJ Events Page</div>
+    </Layout>
+  );
+};
 
-export default About
+export default About;
